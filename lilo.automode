@@ -38,7 +38,7 @@
   CUPS="y"
   CUSTOMREPO="n"         # Add custom repositories
   FIRMWARE="y"           # Install custom firmwares
-  GITTOR="y"
+  GITTOR="n"
   NFS="n"
   READAHEAD="y"
   SAMBA="y"
@@ -65,7 +65,7 @@
     #10) libffado [Firmware Audio Devices]
     #11) libmtp [Android Devices]
     #12) libraw1394 [IEE1394 Driver]
-    FIRMWARE_OPTIONS="11"
+    FIRMWARE_OPTIONS="6 7 11"
   #}}}
 #}}}
 #DESKTOP ENVIRONMENT|WINDOW MANAGER {{{
@@ -145,7 +145,7 @@
   # n) None
   NETWORKMANAGER=1
   #USB 3G MODEM SUPPORT
-  USBMODEM="y"
+  USBMODEM="n"
 #}}}
 #ACCESSORIES {{{
   # 1) Cairo Dock
@@ -189,7 +189,7 @@
   #20) QT Creator
   #21) Ruby on Rails
   #22) Sublime Text
-  DEVELOPMENT_OPTIONS="5 16 17 19 22"
+  DEVELOPMENT_OPTIONS="22"
   #ECLIPSE {{{
     # 1) Eclipse Classic
     # 2) Eclipse IDE for C/C++ Developers
@@ -201,7 +201,7 @@
     # 8) Vim-like editing plugin for Eclipse
     # 9) Git support plugin for Eclipse
     #10) Colortheme for Eclipse
-    ECLIPSE_OPTIONS="5"
+    ECLIPSE_OPTIONS=""
   #}}}
   #NODEJS {{{
     # 1) backbone
@@ -219,7 +219,7 @@
     #13) uglify-js
     #14) underscore
     #15) yeoman
-    NODEJS_OPTIONS="2 7 8 9 13 15"
+    NODEJS_OPTIONS=""
   #}}}
 #}}}
 #OFFICE {{{
@@ -235,7 +235,7 @@
   #10) MediaElch
   #11) OCRFeeder
   #12) Xmind
-  OFFICE_OPTIONS="9"
+  OFFICE_OPTIONS=""
 #}}}
 #SYSTEM TOOLS {{{
   # 1) ClamAV
@@ -248,7 +248,7 @@
   # 8) Virtualbox
   # 9) Webmin
   #10) Wine
-  SYSTEMTOOLS_OPTIONS="8 10"
+  SYSTEMTOOLS_OPTIONS=""
 #}}}
 #GRAPHICS {{{
   # 1) Blender
@@ -262,7 +262,7 @@
   # 9) Shotwell
   #10) Simple Scan
   #11) XnViewMP
-  GRAPHICS_OPTIONS="1-7 9"
+  GRAPHICS_OPTIONS=""
 #}}}
 #INTERNET {{{
   # 1) Browser
@@ -271,14 +271,14 @@
   # 4) Instant Messaging|IRC
   # 5) Mapping Tools
   # 6) VNC|Desktop Share
-  INTERNET_OPTIONS="1-6"
+  INTERNET_OPTIONS="1"
   #BROWSER {{{
     # 1) Chrome
     # 2) Chromium
     # 3) Firefox
     # 4) Midori|Rekonq
     # 5) Opera
-    BROWSERS_OPTIONS="1 2 5"
+    BROWSERS_OPTIONS="2"
   #}}}
   #DOWNLOAD|FILESHARE {{{
     # 1) AeroFS
@@ -308,7 +308,7 @@
     # 5) Skype
     # 6) Teamspeak
     # 7) Viber
-    IM_OPTIONS="5"
+    IM_OPTIONS=""
   #}}}
   #MAPPING {{{
     # 1) Google Earth
@@ -318,7 +318,7 @@
   #VNC|Desktop Share {{{
     # 1) Remmina
     # 2) Teamviewer
-    VNC_OPTIONS="2"
+    VNC_OPTIONS=""
   #}}}
 #}}}
 #AUDIO {{{
@@ -523,7 +523,7 @@
   # 2) LAPP - APACHE, POSTGRESQL & PHP
   # 3) LEMP - NGINX, MariaDB & PHP
   # 4) LEPP - NGINX, POSTGRESQL & PHP
-  WEBSERVER=2
+  WEBSERVER=
   POSTGIS="n"
 #}}}
 #FONTS {{{
@@ -534,7 +534,7 @@
   # 5) ttf-ms-fonts
   # 6) ttf-vista-fonts
   # 7) wqy-microhei
-  FONTS_OPTIONS="1-7"
+  FONTS_OPTIONS="1"
 #}}}
 #EXTRA {{{
   # 1) Global Menu
